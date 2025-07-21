@@ -28,6 +28,11 @@ Para ejecutar este proyecto en su entorno local, por favor siga los siguientes p
     
     git clone https://github.com/VitoRouseCode/SGEstudiantes
    
+
+   Dentro de la carpeta que acaba de clonar (SGEstudiantes), encontrará la carpeta principal del proyecto llamada SistemaEstudiante.
+
+   Abra esa carpeta y haga doble clic en el archivo SistemaEstudiante.sln. Esto cargará la solución completa en Visual Studio.
+
 2.  **Prerrequisitos**
     - Tener instalado el **SDK de .NET 6** o superior.
     - Tener instalado **Visual Studio 2022** (con la carga de trabajo de ASP.NET y desarrollo web).
