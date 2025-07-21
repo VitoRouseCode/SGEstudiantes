@@ -26,7 +26,7 @@ Para ejecutar este proyecto en su entorno local, por favor siga los siguientes p
 
 1.  **Clonar el Repositorio**
     
-    git clone https://github.com/VitoRouseCode/SistemaGestionEstudiante
+    git clone https://github.com/VitoRouseCode/SGEstudiantes
    
 2.  **Prerrequisitos**
     - Tener instalado el **SDK de .NET 6** o superior.
