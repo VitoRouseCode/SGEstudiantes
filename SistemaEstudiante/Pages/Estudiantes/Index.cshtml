@@ -1,0 +1,36 @@
+﻿@page
+@model SistemaEstudiantes.Web.Pages.Estudiantes.IndexModel
+@{
+    ViewData["Title"] = "Lista de Estudiantes";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Crear Nuevo Estudiante</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Documento</th>
+            <th>Correo</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudiante in Model.Estudiantes)
+        {
+            <tr>
+                <td>@estudiante.Nombre</td>
+                <td>@estudiante.Documento</td>
+                <td>@estudiante.Correo</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@estudiante.Id">Editar</a> |
+                    <a asp-page="./Delete" asp-route-id="@estudiante.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,33 @@
+﻿@page
+@model SistemaEstudiantes.Web.Pages.Inscripciones.IndexModel
+@{
+    ViewData["Title"] = "Inscripción de Materias - Seleccionar Estudiante";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Seleccione un estudiante para gestionar la inscripción de sus materias.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Documento</th>
+            <th>Correo</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudiante in Model.Estudiantes)
+        {
+            <tr>
+                <td>@estudiante.Nombre</td>
+                <td>@estudiante.Documento</td>
+                <td>@estudiante.Correo</td>
+                <td>
+                    <a asp-page="./Inscribir" asp-route-id="@estudiante.Id" class="btn btn-info">Inscribir Materias</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

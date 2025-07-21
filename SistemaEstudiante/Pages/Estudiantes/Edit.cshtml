@@ -1,0 +1,46 @@
+﻿@page "{id:int}"
+@model SistemaEstudiantes.Web.Pages.Estudiantes.EditModel
+@{
+    ViewData["Title"] = "Editar Estudiante";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            @* Campo oculto para mantener el ID del estudiante *@
+            <input type="hidden" asp-for="Estudiante.Id" />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Estudiante.Nombre" class="control-label"></label>
+                <input asp-for="Estudiante.Nombre" class="form-control" />
+                <span asp-validation-for="Estudiante.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Estudiante.Documento" class="control-label"></label>
+                <input asp-for="Estudiante.Documento" class="form-control" />
+                <span asp-validation-for="Estudiante.Documento" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Estudiante.Correo" class="control-label"></label>
+                <input asp-for="Estudiante.Correo" class="form-control" />
+                <span asp-validation-for="Estudiante.Correo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Volver a la Lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

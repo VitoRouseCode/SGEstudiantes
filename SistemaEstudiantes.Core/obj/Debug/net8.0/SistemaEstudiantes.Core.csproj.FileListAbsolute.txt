@@ -1,0 +1,11 @@
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\bin\Debug\net8.0\SistemaEstudiantes.Core.deps.json
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\bin\Debug\net8.0\SistemaEstudiantes.Core.dll
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\bin\Debug\net8.0\SistemaEstudiantes.Core.pdb
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\obj\Debug\net8.0\SistemaEstudiantes.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\obj\Debug\net8.0\SistemaEstudiantes.Core.AssemblyInfoInputs.cache
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\obj\Debug\net8.0\SistemaEstudiantes.Core.AssemblyInfo.cs
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\obj\Debug\net8.0\SistemaEstudiantes.Core.csproj.CoreCompileInputs.cache
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\obj\Debug\net8.0\SistemaEstudiantes.Core.dll
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\obj\Debug\net8.0\refint\SistemaEstudiantes.Core.dll
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\obj\Debug\net8.0\SistemaEstudiantes.Core.pdb
+C:\Users\vitor\source\repos\SistemaEstudiantes.Core\obj\Debug\net8.0\ref\SistemaEstudiantes.Core.dll

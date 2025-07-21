@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido al Sistema de Gestión de Estudiantes</h1>
+    <p>Seleccione una opción para comenzar.</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Gestión de Estudiantes</h5>
+                <p class="card-text">Crear, editar, listar y eliminar estudiantes del sistema.</p>
+                <a asp-page="/Estudiantes/Index" class="btn btn-primary">Ir a Estudiantes</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Gestión de Materias</h5>
+                <p class="card-text">Crear, editar, listar y eliminar las materias disponibles.</p>
+                <a asp-page="/Materias/Index" class="btn btn-primary">Ir a Materias</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Inscripciones</h5>
+                <p class="card-text">Inscribir materias a los estudiantes.</p>
+                <a asp-page="/Inscripciones/Index" class="btn btn-primary">Realizar Inscripción</a>
+            </div>
+        </div>
+    </div>
+</div>

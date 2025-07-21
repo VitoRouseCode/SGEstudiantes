@@ -1,0 +1,43 @@
+﻿@page
+@model SistemaEstudiantes.Web.Pages.Materias.CreateModel
+@{
+    ViewData["Title"] = "Crear Materia";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Materia.Nombre" class="control-label"></label>
+                <input asp-for="Materia.Nombre" class="form-control" />
+                <span asp-validation-for="Materia.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Materia.Codigo" class="control-label"></label>
+                <input asp-for="Materia.Codigo" class="form-control" />
+                <span asp-validation-for="Materia.Codigo" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Materia.Creditos" class="control-label"></label>
+                <input asp-for="Materia.Creditos" class="form-control" />
+                <span asp-validation-for="Materia.Creditos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Volver a la Lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

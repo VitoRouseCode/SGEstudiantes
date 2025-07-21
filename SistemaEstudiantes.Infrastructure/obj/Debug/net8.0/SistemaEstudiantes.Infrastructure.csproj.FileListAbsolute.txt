@@ -1,0 +1,17 @@
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaEstudiantes.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaEstudiantes.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaEstudiantes.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaEstudiantes.Infrastructure.AssemblyInfo.cs
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaEstudiantes.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\bin\Debug\net8.0\SistemaEstudiantes.Infrastructure.deps.json
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\bin\Debug\net8.0\SistemaEstudiantes.Infrastructure.runtimeconfig.json
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\bin\Debug\net8.0\SistemaEstudiantes.Infrastructure.dll
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\bin\Debug\net8.0\SistemaEstudiantes.Infrastructure.pdb
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\bin\Debug\net8.0\SistemaEstudiantes.Core.dll
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\bin\Debug\net8.0\SistemaEstudiantes.Core.pdb
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaE.1E7792A4.Up2Date
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaEstudiantes.Infrastructure.dll
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\refint\SistemaEstudiantes.Infrastructure.dll
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaEstudiantes.Infrastructure.pdb
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\SistemaEstudiantes.Infrastructure.genruntimeconfig.cache
+C:\Users\vitor\source\repos\SistemaEstudiantes.Infrastructure\obj\Debug\net8.0\ref\SistemaEstudiantes.Infrastructure.dll

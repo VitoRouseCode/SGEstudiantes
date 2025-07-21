@@ -1,0 +1,36 @@
+﻿@page
+@model SistemaEstudiantes.Web.Pages.Materias.IndexModel
+@{
+    ViewData["Title"] = "Lista de Materias";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Crear Nueva Materia</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Código</th>
+            <th>Créditos</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var materia in Model.Materias)
+        {
+            <tr>
+                <td>@materia.Nombre</td>
+                <td>@materia.Codigo</td>
+                <td>@materia.Creditos</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@materia.Id">Editar</a> |
+                    <a asp-page="./Delete" asp-route-id="@materia.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
